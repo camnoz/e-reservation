@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://postres_server:5432/postgres
+    username: postgres
+    password: camilo
+    driver-class-name: org.postgresql.Driver
+  jpa:    hibernate:      ddl-auto: create-drop
+    generate-ddl: true    show-sql: true
